@@ -1,0 +1,6 @@
+.article {
+  @media(min-width: $md) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

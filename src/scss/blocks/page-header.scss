@@ -1,0 +1,37 @@
+.page-header {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 56px;
+  padding: 0 6.25%;
+  @media (min-width: $md) {
+    padding-left: 4.4%;
+    padding-right: 1%;
+    display: block;
+    height: 100px;
+  }
+  @media (min-width: $xl) {
+    width: $container-xl;
+    padding: 0;
+    margin: 0 auto;
+    height: 56px;
+  }
+}
+
+.page-header__logo {
+  background: $logo;
+  background-position: center;
+  flex-grow: 2;
+  margin-left: 30px;
+  width: 101px;
+  height: 84px;
+  @media (min-width: $md) {
+    display: none;
+  }
+
+  @media (min-width: $xl) {
+    background: $logo-xl;
+    display: none;
+  }
+}
+
+

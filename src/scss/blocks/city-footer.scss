@@ -1,0 +1,11 @@
+.city-footer {
+  background: $main;
+  color: $text;
+  text-align: left;
+  padding: 0 20px;
+  @media(min-width: $md) {
+    text-align: center;
+    padding: 59px 19px 59px 39px;
+    margin: 0 auto;
+  }
+}

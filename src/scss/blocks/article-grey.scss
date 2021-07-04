@@ -1,0 +1,12 @@
+.article-grey span {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.article-grey__title {
+  @media(min-width: $md) {
+    width: 87%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

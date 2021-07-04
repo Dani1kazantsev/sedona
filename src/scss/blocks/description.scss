@@ -1,0 +1,38 @@
+.description {
+  margin-bottom: 11px;
+  @media (min-width: $md) {
+    margin-bottom: 52px;
+  }
+  @media(min-width: $xl) {
+   margin-bottom: 41px;
+  }
+}
+
+.description__back {
+  background-image:
+  url(../img/manifest/back/intro-triangle.svg),
+  url(../img/manifest/back/intro.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  padding: 200px 3%;
+  margin-bottom: 32px;
+  @media(min-width: $md) {
+   margin-bottom: 14px;
+   padding: 200px 20%;
+ }
+ @media(min-width: $xl) {
+   margin-bottom: 54px;
+   padding: 20% 30%;
+ }
+}
+
+
+.description__title {
+  color: $text-w;
+  text-align: center;
+  font-size: 80px;
+  height: 80px;
+  margin: 0 auto;
+  font-weight: bolder;
+}

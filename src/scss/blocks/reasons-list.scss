@@ -1,0 +1,27 @@
+.reasons-list__item:not(:last-child){
+  margin-bottom: 30px;
+  @media(min-width: $md) {
+    margin-bottom: 0;
+  }
+}
+
+.reasons-list__item--mrgn-not{
+  margin-bottom: 0;
+}
+
+.reasons-list__items--grey {
+  background: $grey;
+  padding: 26px;
+  @media(min-width: $md) {
+    padding: 41px 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.reasons-list__items--grey li {
+  @media(min-width: $md) {
+    width: 26%;
+    line-height: 21px;
+  }
+}

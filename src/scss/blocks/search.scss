@@ -1,0 +1,48 @@
+.search {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.search__header {
+  padding: 0 6%;
+  padding-top: 32px;
+  margin-bottom: 49px;
+  @media(min-width: $md) {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  @media(min-width: $xl) {
+    padding: 0;
+    width: 38%;
+    margin: 0 auto;
+    margin-bottom: 66px;
+  }
+}
+
+.search__title {
+  @media(min-width: $md) {
+    font-size: 30px;
+  }
+}
+
+.search__subtitle {
+  margin-bottom: 27px;
+}
+
+.search__link {
+  display: block;
+  font-size: 21px;
+  color:$main;
+  background: $blue;
+  padding: 15px 32px;
+
+  &:hover,
+  &:focus{
+    background: $hover;
+  }
+  &:active {
+    color: rgba($main,0.5);
+    background: $active;
+  }
+}
+
